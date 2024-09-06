@@ -16,18 +16,78 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+/* .bgHome{
+  background-image: url(../components/images/bg1.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  width: 100vw;
+  
+  
+} */
+
+
+/* shaking button animation */
+/* Define the vibration animation */
+@keyframes vibrate {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  50% { transform: translateX(2px); }
+  75% { transform: translateX(-2px); }
+  100% { transform: translateX(0); }
+}
+
+
+/* Apply the hover effect to the element */
+.element {
+  display: inline-block;
+  /* Any other styling for your element */
+  transition: all 0.3s ease;
+}
+
+.element:hover {
+  animation: vibrate 0.2s linear infinite;
+}
+/* 
+*{
+  border: 1px solid red;
+  margin: 0px;
+  padding: 0px;
+} */
+
+.fontStyle{
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add this to your CSS file */
+.revolve-image {
+  transition: transform 1s ease-in-out;
+}
+
+.revolve-image:hover {
+  transform: rotate(360deg);
+}
+
+
+
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 20px !important;
+  background-color: white !important;
+  color: orange !important;
+  padding: 10px 15px !important;
+  display: flex !important;
+  justify-content: baseline !important;
+  align-items: center !important;
+  border-radius: 50%;
 }
