@@ -36,14 +36,14 @@ const Navbar=()=>{
                     
                     <Link href={'/'}>
                         <div>
-                            <h1 className="flex md:flex items-center  bg-sky-200 hover:bg-sky-800 hover:text-white text-black cursor-pointer px-5 py-2.5 rounded-[8px] text-[14px] md:text-[10px] lg:text-lg  "><PiFishSimpleFill/>PINJU STORES...<CiDeliveryTruck/></h1>
+                            <h1 className="flex md:flex items-center  bg-sky-200 hover:bg-sky-800 hover:text-white text-black cursor-pointer px-5 py-2.5 rounded-[8px] text-[14px] md:text-sm   "><PiFishSimpleFill/>PINJU STORES...<CiDeliveryTruck/></h1>
                                 
                                 
                         </div>
                     </Link>
 
                     <div className="">
-                        <ul className=" hidden md:flex md:text-[10px] lg:text-lg font-semibold items-center justify-center md:gap-2  ">
+                        <ul className=" hidden md:flex md:text-[10px] lg:text-base font-semibold items-center justify-center md:gap-2  ">
                             
                             <Link href={'/'}>
                                 <li className="px-3 py-2 hover:bg-sky-800 cursor-pointer hover:text-white element rounded-[8px]  element">Home</li>

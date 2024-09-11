@@ -53,7 +53,7 @@ const HomePage=()=>{
 
             
 
-            <section className="px-[3rem] pt-32 relative">
+            <section className="px-[3rem] pt-20 relative">
                 {/* section 1 */}
                 <div className="  ">
                     {/* left div */}
